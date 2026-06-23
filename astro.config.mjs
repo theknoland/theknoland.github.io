@@ -2,8 +2,13 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
+
+const site = 'https://theknoland.github.io';
+
+
 // https://astro.build/config
 export default defineConfig({
+	site,
 	integrations: [
 		starlight({
 			title: 'Knoland Spec',
