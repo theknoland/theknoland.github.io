@@ -11,8 +11,8 @@ export default defineConfig({
 	site,
 	integrations: [
 		starlight({
-			title: 'Knoland Spec',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			title: 'Knoland Specs',
+			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/theknoland/theknoland.github.io' }],
 			sidebar: [
 				{
 					label: 'Knoland',
